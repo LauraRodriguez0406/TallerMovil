@@ -1,0 +1,178 @@
+{
+  "paises":[
+    { "capital" : "Berlin",
+      "nombre_pais" : "Alemania",
+      "nombre_pais_int" : "Germany",
+      "sigla" : "DE",
+      "imagen": "alemania"
+    },
+
+    { "capital" : "Buenos Aires",
+      "nombre_pais" : "Argentina",
+      "nombre_pais_int" : "Argentina",
+      "sigla" : "AR",
+      "imagen": "argentina"
+    },
+
+    { "capital" : "Canberra",
+      "nombre_pais" : "Australia",
+      "nombre_pais_int" : "Australia",
+      "sigla" : "AU",
+      "imagen": "australia"
+    },
+    
+    { "capital" : "Viena",
+      "nombre_pais" : "Austria",
+      "nombre_pais_int" : "Austria",
+      "sigla" : "AT",
+      "imagen": "austria"
+    },
+
+    { "capital" : "Bruselas",
+      "nombre_pais" : "Bélgica",
+      "nombre_pais_int" : "Belgium",
+      "sigla" : "BE",
+      "imagen": "belgica"
+    },
+
+    { "capital" : "La Paz",
+      "nombre_pais" : "Bolívia",
+      "nombre_pais_int" : "Bolivia",
+      "sigla" : "BO",
+      "imagen": "bolivia"
+    },
+
+    { "capital" : "Brasilia",
+      "nombre_pais" : "Brasil",
+      "nombre_pais_int" : "Brazil",
+      "sigla" : "BR",
+      "imagen": "brazil"
+    },
+
+
+    { "capital" : "Santiago",
+      "nombre_pais" : "Chile",
+      "nombre_pais_int" : "Chile",
+      "sigla" : "CL",
+      "imagen": "chile"
+    },
+
+    { "capital" : "Bogotá",
+      "nombre_pais" : "Colombia",
+      "nombre_pais_int" : "Colombia",
+      "sigla" : "CO",
+      "imagen": "colombia"
+    },
+
+
+    { "capital" : "La Habana",
+      "nombre_pais" : "Cuba",
+      "nombre_pais_int" : "Cuba",
+      "sigla" : "CU",
+      "imagen": "cuba"
+    },
+
+
+    { "capital" : "Quito",
+      "nombre_pais" : "Ecuador",
+      "nombre_pais_int" : "Ecuador",
+      "sigla" : "EC",
+      "imagen": "ecuador"
+    },
+
+    { "capital" : "Madrid",
+      "nombre_pais" : "España",
+      "nombre_pais_int" : "Spain",
+      "sigla" : "ES",
+      "imagen": "españa"
+    },
+    { "capital" : "Washington",
+      "nombre_pais" : "Estados Unidos",
+      "nombre_pais_int" : "United States",
+      "sigla" : "US",
+      "imagen": "estadosunidos"
+    },
+
+    { "capital" : "Paris",
+      "nombre_pais" : "Francia",
+      "nombre_pais_int" : "France",
+      "sigla" : "FR",
+      "imagen": "francia"
+    },
+
+    { "capital" : "Londres",
+      "nombre_pais" : "Reino Unido",
+      "nombre_pais_int" : "United Kingdom",
+      "sigla" : "GB",
+      "imagen": "reinounido"
+    },
+
+    { "capital" : "Atenas",
+      "nombre_pais" : "Grecia",
+      "nombre_pais_int" : "Greece",
+      "sigla" : "GR",
+      "imagen": "grecia"
+    },
+
+    { "capital" : "Amsterdam",
+      "nombre_pais" : "Holanda",
+      "nombre_pais_int" : "Netherlands",
+      "sigla" : "NL",
+      "imagen": "holanda"
+    },
+
+    { "capital" : "Budapest",
+      "nombre_pais" : "Hungria",
+      "nombre_pais_int" : "Hungary",
+      "sigla" : "HU",
+      "imagen": "hungria"
+    },
+
+
+    { "capital" : "Dublin",
+      "nombre_pais" : "Irlanda",
+      "nombre_pais_int" : "Ireland",
+      "sigla" : "IE",
+      "imagen": "irlanda"
+    },
+    { "capital" : "Reykjavik",
+      "nombre_pais" : "Islandia",
+      "nombre_pais_int" : "Iceland",
+      "sigla" : "IS",
+      "imagen": "islandia"
+    },
+    { "capital" : "Jerusalen",
+      "nombre_pais" : "Israel",
+      "nombre_pais_int" : "Israel",
+      "sigla" : "IL",
+      "imagen": "israel"
+    },
+    { "capital" : "Roma",
+      "nombre_pais" : "Italia",
+      "nombre_pais_int" : "Italy",
+      "sigla" : "IT",
+      "imagen": "italia"
+    },
+
+    { "capital" : "Tokyo",
+      "nombre_pais" : "Japón",
+      "nombre_pais_int" : "Japan",
+      "sigla" : "JP",
+      "imagen": "japon"
+    },
+
+    { "capital" : "Montevideo",
+      "nombre_pais" : "Uruguay",
+      "nombre_pais_int" : "Uruguay",
+      "sigla" : "UY",
+      "imagen": "uruguay"
+    },
+
+    { "capital" : "Caracas",
+      "nombre_pais" : "Venezuela",
+      "nombre_pais_int" : "Venezuela",
+      "sigla" : "VE",
+      "imagen": "venezuela"
+    }
+  ]
+}

@@ -45,11 +45,41 @@ class triqui1movil : AppCompatActivity() {
         )
 
         buttons.forEach { it.setOnClickListener {
-            //seleccionar si es X o O
-            //Pintar el simbolo
-            //verificar si gano
+            // Verifica si el botón está vacío y no hay un ganador
+            if ((it as Button).text.toString() == "" && !checkWinner()) {
+                // Si el jugador activo es el jugador 1, coloca "X", sino "O"
+                if (playerOneActive) {
+                    it.text = "X"
+                    it.setTextColor(Color.parseColor("#ffc34a"))
+                    gameState[buttons.indexOf(it)] = 0 // Actualiza el estado del juego
+                } else {
+                    it.text = "O"
+                    it.setTextColor(Color.parseColor("#70fc3a"))
+                    gameState[buttons.indexOf(it)] = 1 // Actualiza el estado del juego
+                }
+                rounds++ // Incrementa el número de rondas jugadas
 
-        } }
+                // Verifica si hay un ganador después de colocar el símbolo en el botón
+                if (checkWinner()) {
+                    // Si hay un ganador, actualiza los puntajes y muestra el mensaje correspondiente
+                    if (playerOneActive) {
+                        playerOneScoreCount++
+                        updatePlayerScore()
+                        playerStatus.text = "El jugador-1 ha ganado"
+                    } else {
+                        playerTwoScoreCount++
+                        updatePlayerScore()
+                        playerStatus.text = "El jugador-2 ha ganado"
+                    }
+                } else if (rounds == 9) {
+                    // Si no hay ganador y se han realizado 9 movimientos, muestra un mensaje de empate
+                    playerStatus.text = "No hay ganador"
+                } else {
+                    // Cambia al siguiente jugador si no hay ganador y no se ha llegado al límite de movimientos
+                    playerOneActive = !playerOneActive
+                }
+            }
+        }}
 
         playerOneScoreCount = 0
         playerTwoScoreCount = 0
